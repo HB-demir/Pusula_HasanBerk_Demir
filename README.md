@@ -47,4 +47,4 @@ pip install -r requirements.txt
 jupyter notebook
 
 # veya Python Script ile
-python main.py
+python dosya_adi.py
