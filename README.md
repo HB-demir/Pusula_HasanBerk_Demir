@@ -18,3 +18,25 @@ Amaç, hastaların demografik bilgileri, kronik hastalık durumları, tedavi bil
 - Bu işlemler sonucunda her kategorik özellik uygun şekilde dönüştürüldü ve veri seti analiz/modelleme için hazır hale getirildi.  
 
 Sonuç olarak, proje kapsamında sağlık verilerindeki eksiklikler giderilmiş, kategorik çeşitlilik düzenlenmiş ve veri standardizasyonu sağlanmıştır. Bu aşamalar sayesinde veri seti, daha sonraki analiz ve tahmin modelleri için güçlü bir temel oluşturmuştur.  
+## ⚙️ Kurulum ve Çalıştırma
+
+### 1️⃣ Depoyu Klonlayın
+```bash
+git clone https://github.com/<kullanici-adi>/<repo-adi>.git
+cd <repo-adi>
+### 2️⃣ Sanal Ortam Oluşturun (Önerilir)
+python -m venv .venv
+
+# macOS / Linux
+source .venv/bin/activate
+
+# Windows
+.\.venv\Scripts\activate
+
+### 3️⃣ Bağımlılıkları Yükleyin
+pip install --upgrade pip
+pip install -r requirements.txt
+
+### 4️⃣ Veri Dosyasını Yerleştirin
+	•	Ham CSV dosyanızı data/raw/ klasörüne koyun (örn. data/raw/hastane.csv).
+	•	Büyük dosyaları .gitignore içine eklemeyi unutmayın.
